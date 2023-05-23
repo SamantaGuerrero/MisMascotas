@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/titulo3"
+        android:textColor="@color/letras"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        app:srcCompat="@drawable/perro"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="110dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_descripcion3"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        android:text="@string/tv_descripcion3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"
+        android:textSize="22dp">
+    </TextView>
+
+</LinearLayout>
